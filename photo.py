@@ -4,7 +4,7 @@ import google.generativeai as genai
 import io
 
 # Configure API key
-GOOGLE_API_KEY = "AIzaSyCdrkERQkN2Lrgd4YZTH9_QZq8XAtLtGxM"
+GOOGLE_API_KEY = "AIzaSyCQU22gqerw93FwElzRSKCRvk4X-neAN4Y"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Function to load Gemini model and get responses
@@ -51,3 +51,4 @@ if st.button("Tell me about the image"):
             st.error(f"Error: {e}")
     else:
         st.warning("Please provide input text or upload an image.")
+
